@@ -84,6 +84,7 @@ window.addEventListener('load', () => {
 <style type="text/css">
 body {
 	padding: 20px;
+	font-family: helvetica,arial,sans-serif;
 }
 h1 {
 	font-family: zillaslab,palatino,"Palatino Linotype",serif;
@@ -93,11 +94,16 @@ h1 {
 code {
 	font-family: consolas,"Liberation Mono",courier,monospace;
 }
+.note {
+	margin: -1rem 0 3rem 0;
+	font-size: 80%;
+}
 </style>
 </head>
 <body>
 
 <h1>Monty Hall Simulation</h1>
+<div class="note">Append "?runThisManyTimes=100" to the browser address bar to alter the number of game plays</div>
 
 <pre><code id="out"></code></pre>
 
